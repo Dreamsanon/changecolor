@@ -1,9 +1,9 @@
 $(document).ready(function(){
 	$('#changeColorRed').on('click', function(){
-		$('#colored').css('color', 'red');
+		$('#colored').css('background-color', 'red');
 	})
 
 	$('#changeColorGreen').on('click', function(){
-		$('#colored').css('color', 'green');
+		$('#colored').css('background-color', 'green');
 	})
 });
